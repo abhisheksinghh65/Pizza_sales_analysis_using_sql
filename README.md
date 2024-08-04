@@ -20,6 +20,7 @@ The main objective of this analysis is to identify the top-performing pizza type
 ## 📊 Key Insights
 
 ### Top 3 Most Ordered Pizza Types by Revenue for Each Category
+### Provided insights that can help in making informed business decisions related to menu optimization and marketing strategies
 
 The following SQL query was used to determine the top 3 most ordered pizza types by revenue for each category:
 
@@ -41,7 +42,4 @@ FROM (
         pizza_types.category, pizza_types.name
 ) AS ranked_pizzas
 WHERE rn <= 3;'''
-## Summary of Insights
-- High Revenue Generating Pizzas: Identified the top 3 pizzas in each category that generate the highest revenue.
-- Category Performance: Analyzed the performance of different pizza categories in terms of sales.
-- Data-Driven Decisions: Provided insights that can help in making informed business decisions related to menu optimization and marketing strategies.
+
