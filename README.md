@@ -40,4 +40,8 @@ FROM (
     GROUP BY 
         pizza_types.category, pizza_types.name
 ) AS ranked_pizzas
-WHERE rn <= 3;
+WHERE rn <= 3;'''
+## Summary of Insights
+- High Revenue Generating Pizzas: Identified the top 3 pizzas in each category that generate the highest revenue.
+- Category Performance: Analyzed the performance of different pizza categories in terms of sales.
+- Data-Driven Decisions: Provided insights that can help in making informed business decisions related to menu optimization and marketing strategies.
