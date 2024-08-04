@@ -16,6 +16,8 @@ The data used in this analysis comes from four main CSV files:
 - **pizza_type.csv**: Contains information about pizza types, including category and name.
 
 The main objective of this analysis is to identify the top-performing pizza types within each category based on revenue.
+![Screenshot 2024-08-04 180017](https://github.com/user-attachments/assets/f0a6fc13-0c6d-4723-80cf-3a3c07f7c0d1)
+![Screenshot 2024-08-04 180039](https://github.com/user-attachments/assets/efe6acab-8614-4006-a9f3-32bfefb1972c)
 
 ## 📊 Key Insights
 
@@ -43,5 +45,4 @@ FROM (
 ) AS ranked_pizzas
 WHERE rn <= 3;'''
 
-![Screenshot 2024-08-04 180017](https://github.com/user-attachments/assets/f0a6fc13-0c6d-4723-80cf-3a3c07f7c0d1)
-![Screenshot 2024-08-04 180039](https://github.com/user-attachments/assets/efe6acab-8614-4006-a9f3-32bfefb1972c)
+
